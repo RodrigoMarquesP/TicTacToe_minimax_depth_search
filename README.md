@@ -28,4 +28,4 @@ An output of the code, specifying the initial state as totally clear, can be see
 So, the full game has 549945 nodes to look and execute its choice in almost 40 seconds - at least in my machine.  
 Must be noticed that when the machine move is the second, the algorithm must look just approximately 549945/9 nodes, leading to an almost 5 seconds execution on my machine, and when the board has at least two marked positions, the execution happens in less than a second, *and that's the ideal response* for a dinamic game.  
 
-This problem can be solved by introducing knowledge about the two first moves, and how to deal with them without proceed with the entire search. I didn't implement this cause this code is just for educational purpose, but the full code implementing an mobile app does that.
+This problem can be solved by introducing knowledge about the two first moves, and how to deal with them without proceed with the entire search. I didn't implement this cause this code is just for educational purpose, but [the full code implementing an mobile app](https://github.com/RodrigoMarquesP/TicTacToe_mobile_app) does that.
